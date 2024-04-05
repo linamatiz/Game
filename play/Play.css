@@ -1,3 +1,9 @@
+body {
+    background-image: url('/assets/pngegg.ico'); /* URL de tu imagen de fondo */
+    background-position: center; /* Centra la imagen */
+
+   
+}
 
 
 
@@ -9,14 +15,19 @@
     border-radius: 50px;
     outline: none;
     cursor: pointer;
-   
     margin-left: 500px;
+    margin: 20px;
     
+   
+   
+    
+   
+   
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttonconfig:hover {
     transform: scale(1.5); /* Escala 10% más grande al pasar el cursor sobre el botón */
-    background-color: #f49747; 
+    background-color: #ecc4ff; 
 }
 
 
@@ -28,13 +39,14 @@
     border-radius: 50px;
     outline: none;
     cursor: pointer;
-    margin-left: 500px;
+    
+    
     
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttongo:hover {
     transform: scale(1.5); /* Escala 10% más grande al pasar el cursor sobre el botón */
-    background-color: #f49747; 
+    background-color: #ecc4ff; 
 }
 .buttonReturn{
     font-family: 'arial', cursive;
@@ -44,13 +56,13 @@
     border-radius: 50px;
     outline: none;
     cursor: pointer;
-    margin-left: 500px;
+   
     
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttonReturn:hover {
     transform: scale(1.5); /* Escala 10% más grande al pasar el cursor sobre el botón */
-    background-color: #f49747; 
+    background-color: #ecc4ff; 
 }
 .buttonchat{
     font-family: 'arial', cursive;
@@ -60,12 +72,12 @@
     border-radius: 50px;
     outline: none;
     cursor: pointer;
-    margin-left: 500px;
+   
     
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttonchat:hover {
     transform: scale(1.5); /* Escala 10% más grande al pasar el cursor sobre el botón */
-    background-color: #f49747; 
+    background-color: #ff8a14; 
 }
 

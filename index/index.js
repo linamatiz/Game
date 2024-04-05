@@ -36,4 +36,13 @@ var map = L.map('mapid').setView([44.0462, -123.022], 13);
             document.querySelector('.buttonconfig').addEventListener("click", function() {
                 window.location.href = "/deactive/Deactive.html"; 
               });
+             
+              
+              document.querySelector('.btn-success').addEventListener("click", function() {
+                // Code to be executed when the "Register" button is clicked
+                window.location.href = "/register/Register.html"; // Redirigir a la página de inicio de sesión
+              });
+              
+          
+  
               

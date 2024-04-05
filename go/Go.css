@@ -1,0 +1,47 @@
+body{
+background-color: #00FF00;
+
+}
+.cardpetter{
+    
+margin-left: 180px;
+border-color: aquamarine;
+margin-top: 100px;
+border: 2px solid #ff0000; /*  bordes a la carta */
+border-radius: 10px; /*  bordes redondeados */
+
+animation: pulseAnimation 1s infinite alternate; /*  palpitación */
+}
+
+@keyframes pulseAnimation {
+    from {
+        transform: scale(1); /* Escala inicial */
+    }
+    to {
+        transform: scale(1.1); /* Escala aumentada */
+    }
+}
+
+.btn{
+    background-color: #ffb700;
+    margin-left: 130px;
+    margin-bottom:8px;
+    border-radius: 20px;
+    height: 48px;
+    width: 80px;
+    color: rgb(0, 0, 0);
+    border-color: #ff0000;
+    font-size: medium;
+
+}
+.btn:hover{
+    background-color: #ff0000;
+    
+
+}
+.card-title{
+    margin-left: 138px;
+}
+.card-text{
+    margin-left: 24px;
+}

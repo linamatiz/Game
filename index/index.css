@@ -8,7 +8,7 @@
 
 @keyframes pulse {
     1% {
-        background-color: #f9ff3e;
+        background-color: #41ff3e;
     }
     100% {
         background-color: #e335e0; /* Color de fondo animado */
@@ -68,7 +68,7 @@
         border-radius: 50px;
         outline: none;
         cursor: pointer;
-        margin-left: 5px;
+        margin-left: 20px;
         
         transition: transform 0.7s ease, background-color 0.7s ease; 
     }
@@ -77,11 +77,27 @@
         background-color: #ecc4ff; 
     }
     
-    #searchInput{
-        border-radius: 20px;
-        background-color: #d1ffed;
+   
+    
+    .buttonconfig{
+        font-family: 'arial', cursive;
+        background-color: #dfff42;
+        color: #bf29ff;
+        font-size: 23px;
+        padding: .5em 2em;
+        border: 3px solid #b52bff;
+        border-radius: 40px;
+        outline: none;
+        cursor: pointer;
+       
+        margin-left: 70px;
+        
+        
+        transition: transform 0.7s ease, background-color 0.7s ease; 
     }
-    
-    
+    .buttonconfig:hover {
+        transform: scale(1.1); /* Escala 10% más grande al pasar el cursor sobre el botón */
+        background-color: #ecc4ff; 
+    }
 
     

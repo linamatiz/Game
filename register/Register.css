@@ -53,7 +53,9 @@ margin-left: 180px;
 }
 .m-5 {
     background-color: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente */
-   
+   border-radius: 10px;
+   width: auto;
+   height: auto;
 }
 .icon-container {
     width: 100px; /* Ancho del contenedor del ícono */
@@ -117,13 +119,14 @@ transition: transform 0.7s ease, background-color 0.7s ease; }
             }
         
             .buttonreturn{
-                background-color: #48ff42;
+                background-color: #ffff42;
                 font-family: 'arial', cursive;
                 font-size: 23px;
                 padding: .5em 2em;
                 border: 3px solid #bf29ff;
                 color: #bf29ff;
                 border-radius: 50px;
+            
            
               
                 
@@ -135,6 +138,11 @@ transition: transform 0.7s ease, background-color 0.7s ease; }
                     }
 .form-label{
     color: #ff8a42;
-    font-size: 20px;
+    font-size: 30px;
+    
+}
+.form-check-input
+{
+    border-color: #48ff42;
     
 }

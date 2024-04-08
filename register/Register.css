@@ -1,0 +1,46 @@
+.btn-primary{
+background-color: #48ff42;
+font-family: 'arial', cursive;
+font-size: 23px;
+padding: .5em 2em;
+border: 3px solid #bf29ff;
+color: #bf29ff;
+border-radius: 50px;
+outline: none;
+cursor: pointer;
+margin-left: 350px;
+
+transition: transform 0.7s ease, background-color 0.7s ease; }
+
+.btn-primary:hover{
+        transform: scale(1.1); /*agranda el boton */
+        background-color: #ecc4ff; 
+    }
+
+.btn-success{
+    background-color: #dfff42;
+font-family: 'arial', cursive;
+font-size: 23px;
+padding: .5em 2em;
+border: 3px solid #bf29ff;
+color: #bf29ff;
+border-radius: 50px;
+outline: none;
+cursor: pointer;
+margin-left: 180px;
+}
+.btn-success:hover{
+    transform: scale(1.1); /*agranda el boton */
+    background-color: #48ff42; 
+}
+
+#formregister{
+    color: #48ff42;
+     margin-left: 550px;
+     font-size: 30px;
+     font-style:initial;
+}
+#formregister:hover{
+    transform: scale(1.1); /*agranda el boton */
+    color: #cd7bff; 
+}

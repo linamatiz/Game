@@ -1,3 +1,18 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById('buttonconfig').addEventListener("click", function() {
+        window.location.href = "/deactive/Deactive.html"; 
+    });
+
+    document.getElementById('buttonRegister').addEventListener("click", function() {
+    
+        // Código a ejecutar cuando se hace clic en el botón "Register"
+        window.location.href = "register/register.html"; 
+    });
+});
+
+
+//cordenadas para mapa 
 var map = L.map('mapid').setView([44.0462, -123.022], 13);
  //  homero
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -27,22 +42,8 @@ var map = L.map('mapid').setView([44.0462, -123.022], 13);
         });
         
         
+//homer
 
         
         L.marker([44.0462, -122.920], { icon: customIcon }).addTo(map)
             .bindPopup('¡ PETTER!') ; // MENSAJE PERSONALIZADO
-
-            //event button config
-            document.querySelector('.buttonconfig').addEventListener("click", function() {
-                window.location.href = "/deactive/Deactive.html"; 
-              });
-             
-              
-              document.querySelector('.btn-success').addEventListener("click", function() {
-                // Code to be executed when the "Register" button is clicked
-                window.location.href = "/register/Register.html"; // Redirigir a la página de inicio de sesión
-              });
-              
-          
-  
-              

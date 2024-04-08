@@ -58,7 +58,7 @@
     background-color: #ecc4ff; /* color al paar cursor */
 }
 
-#searchButton{
+#buttonRegister{
     background-color: #dfff42;
         font-family: 'arial', cursive;
         font-size: 23px;
@@ -72,14 +72,14 @@
         
         transition: transform 0.7s ease, background-color 0.7s ease; 
     }
-    #searchButton:hover {
+    #buttonRegister:hover {
         transform: scale(1.1); /*agranda el boton */
         background-color: #ecc4ff; 
     }
     
    
     
-    .buttonconfig{
+    #buttonconfig{
         font-family: 'arial', cursive;
         background-color: #dfff42;
         color: #bf29ff;
@@ -95,7 +95,7 @@
         
         transition: transform 0.7s ease, background-color 0.7s ease; 
     }
-    .buttonconfig:hover {
+    #buttonconfig:hover {
         transform: scale(1.1); /* Escala 10% más grande al pasar el cursor sobre el botón */
         background-color: #ecc4ff; 
     }

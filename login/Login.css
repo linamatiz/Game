@@ -1,0 +1,94 @@
+body{
+    background-image: url('/assets/pngwing.png'); /* Ruta de la imagen de fondo */
+    background-size: 80% 100%; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+  
+}
+.m-5 {
+    background-color: rgba(255, 205, 255, 0.5); /* Fondo semi-transparente */
+   border-radius: 10px;
+   width: auto;
+   height: auto;
+
+}
+.login{
+    color: rgb(255, 178, 71);
+    margin-left: 400px;
+    font-family: fantasy;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.login:hover{
+    
+    color: rgb(128, 255, 24);
+}
+.mb-3{
+    font-size: 20px;
+}
+.button
+{
+    background-color: #48ff42;
+    font-family: 'arial', cursive;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #bf29ff;
+    color: #bf29ff;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+
+   
+}
+button:hover{
+    transform: scale(1.1); /*agranda el boton */
+   color: #ecc4ff; 
+}
+.btn-success{
+    background-color: #48ff42;
+    font-family: 'arial', cursive;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #bf29ff;
+    color: #bf29ff;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.btn-success:hover{
+    background-color: #e6ff29;
+    color: black;
+}
+#return{
+    background-color: hsl(61, 100%, 63%);
+    font-family: 'arial', cursive;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #78ff29;
+    color: #bf29ff;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 700px;
+}
+#return:hover{
+    
+    background-color: aqua;
+}
+#getLocationBtn{
+
+    background-color: hsl(61, 100%, 63%);
+    font-family: 'arial', cursive;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #78ff29;
+    color: #bf29ff;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+margin-left:100px;
+}
+#getLocationBtn:hover{
+    transform: scale(1.1); /*agranda el boton */
+    background-color: aqua;
+}

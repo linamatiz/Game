@@ -6,19 +6,24 @@
   <title>login</title>
   <link rel="icon" href="/assets/famila.ico" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="style" href="/login/login.css">
+  <link rel="stylesheet" type="text/css" href="/login/login.css">
 </head>
+
 <body>
-  <!-- form logic -->
-  <!-- campos de entrada -->
+  <div class="spinner-grow text-warning" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <strong class="login">fom login</strong>
+  <button id="return">return</button>
+
+  
   <div class="container">
-    <div class="mb-3">
-      <div class="spinner-grow text-info" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-    <div id="formlogin" class="form-text display-10 text-center text-success">Formulario de login</div>
-    <form class="m-5 p-5 rounded bg-light">
+    
+      
+      
+    <form class="m-5 ">
       <div class="mb-3">
+        
         
         <label for="exampleInputName" class="form-label">Documento</label>
         <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
@@ -33,12 +38,15 @@
         <label for="longitude" class="form-label">Longitud:</label>
         <input type="text" class="form-control" id="longitude" aria-describedby="longitudeHelp">
         <br>
-        <div id="getLocationBtn" class="btn btn-warning">Obtener Ubicación</div>
+      
+        <button class="btn-success">entry</button>
+       <button id="getLocationBtn">ubication</button>
         
+     
       </div>
       
 
-      <a href="register/Register.html" class="btn btn-success" role="button">Registrar</a>
+     
     </form>
   </div>
   <!-- Scripts  -->

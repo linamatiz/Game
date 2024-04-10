@@ -126,6 +126,7 @@ transition: transform 0.7s ease, background-color 0.7s ease; }
                 border: 3px solid #bf29ff;
                 color: #bf29ff;
                 border-radius: 50px;
+                margin-left: 10px;
             
            
               
@@ -137,7 +138,7 @@ transition: transform 0.7s ease, background-color 0.7s ease; }
                         background-color: #ecc4ff; 
                     }
 .form-label{
-    color: #ff8a42;
+    color: #ff4242;
     font-size: 30px;
     
 }

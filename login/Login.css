@@ -1,20 +1,20 @@
 body{
     background-image: url('/assets/pngwing.png'); /* Ruta de la imagen de fondo */
-    background-size: 80% 100%; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-size: 80% 150%; /* se Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
   
 }
 .m-5 {
     background-color: rgba(255, 205, 255, 0.5); /* Fondo semi-transparente */
-   border-radius: 10px;
+   border-radius: 10px; /* borders */
    width: auto;
    height: auto;
 
 }
+ /* style login*/
 .login{
-    color: rgb(255, 178, 71);
+    color: rgb(255, 234, 71);
     margin-left: 400px;
     font-family: fantasy;
-    margin-top: 100px;
     font-size: 40px;
 }
 .login:hover{
@@ -59,8 +59,9 @@ button:hover{
     background-color: #e6ff29;
     color: black;
 }
+ /* button return */
 #return{
-    background-color: hsl(61, 100%, 63%);
+    background-color: hsl(161, 100%, 63%);
     font-family: 'arial', cursive;
     font-size: 23px;
     padding: .5em 2em;
@@ -73,7 +74,7 @@ button:hover{
 }
 #return:hover{
     
-    background-color: aqua;
+    background-color: rgb(255, 234, 0);
 }
 #getLocationBtn{
 
@@ -91,4 +92,28 @@ margin-left:100px;
 #getLocationBtn:hover{
     transform: scale(1.1); /*agranda el boton */
     background-color: aqua;
+}
+.icon-container {
+    width: 100px; /* Ancho del contenedor del ícono */
+    height: 80px; /* Altura del contenedor del ícono */
+    border-radius: 50%; /* Borde redondeado para crear un círculo */
+    overflow: hidden; /* Oculta cualquier contenido adicional fuera del contenedor */
+    background-color: #7bff4f; /* Color de fondo del contenedor  */
+    margin-left: 20px;
+    margin-top: 10px;
+
+   
+}
+
+.icon-img {
+    width: 100%; /* Ancho máximo de la imagen igual al contenedor */
+    height: auto; /* Altura automática para mantener la proporción de la imagen */
+    display: block; /* imagen se muestra como bloque */
+}
+.icon-container:hover {
+    transform: scale(1.1); /* agranda contenedor al pasar cursor */
+}
+
+.icon-container:hover .icon-img {
+    transform: scale(1.1); /* Agranda la imagen al pasar el cursor sobre ella */
 }

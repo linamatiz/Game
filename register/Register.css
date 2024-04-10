@@ -1,6 +1,6 @@
 body{
-    background-image: url('/assets/famila.png'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-image: url('/assets/pngwing.png.png'); /* Ruta de la imagen de fondo */
+    background-size: 98% 100%; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
 }
 
 .btn-primary{
@@ -44,6 +44,7 @@ margin-left: 180px;
      margin-left: 550px;
      font-size: 40px;
      font-style:initial;
+     font-family: fantasy;
    text-align: center;
    margin-left: 50px;
 }
@@ -138,7 +139,7 @@ transition: transform 0.7s ease, background-color 0.7s ease; }
                         background-color: #ecc4ff; 
                     }
 .form-label{
-    color: #ff4242;
+    color: #000000;
     font-size: 30px;
     
 }

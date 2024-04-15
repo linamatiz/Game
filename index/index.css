@@ -1,11 +1,7 @@
-
-
 #mapid {
     height: 100px;
-    background-color: #fff761; /* color fondo */
-    
+    background-color: #61f7ff; /* color fondo */
 }
-
 @keyframes pulse {
     1% {
         background-color: #41ff3e;
@@ -14,90 +10,72 @@
         background-color: #e335e0; /* Color de fondo animado */
     }
 }
-
 .navbar {
     background-color: #00FF00;
-    padding-top: 20px; /* pacion superior */
-    padding-bottom: 1rem; /* Espacio inferior */
-    border: radius 10px;; /* bordes
+    padding-top: 20px; 
+    padding-bottom: 1rem; /* space */
+    border: radius 10px;; /* borders
     box-shadow: 0 4px 6px #9126b5; /* Sombra suave */
 }
-
 .navbar-brand {
     color: #dfff42; 
-    font-size: 1.5rem; /* Tamaño del texto */
+    font-size: 1.5rem; /* size text */
     font-weight: bold; /* Texto en negrita */
 }
-
 .navbar-toggler {
-    border-color: #b52626; /* borde boton .damos un color */
+    border-color: #b52626; /* borders colors */
 }
-
 .navbar-toggler-icon {
     color: #1ce942; 
 }
-
 .navbar-nav .nav-link {
-    color: #f7ff07; /* Color  enlaces */
-    font-size: 1.4rem; /* Tamaño  enlaces */
+    color: #f7ff07; /* Color  links */
+    font-size: 1.4rem; /* size links */
 }
-
 .navbar-nav .nav-link:hover {
     color: #c526ff; /* color al pasar el cursor*/
 }
-
 .dropdown-menu {
-    background-color: #f1ff2b; /* menu desplegable color */
+    background-color: #f1ff2b; /* color */
 }
-
 .dropdown-item {
-    color: #c518ff; /* texto color*/
+    color: #c518ff; /* text color*/
 }
 
 .dropdown-item:hover {
-    background-color: #ecc4ff; /* color al paar cursor */
+    background-color: #ecc4ff; /* color */
 }
-
 #buttonRegister{
     background-color: #dfff42;
-        font-family: 'arial', cursive;
-        font-size: 23px;
-        padding: .5em 2em;
-        border: 3px solid #bf29ff;
-        color: #bf29ff;
-        border-radius: 50px;
-        outline: none;
-        cursor: pointer;
-        margin-left: 20px;
-        
-        transition: transform 0.7s ease, background-color 0.7s ease; 
-    }
-    #buttonRegister:hover {
-        transform: scale(1.1); /*agranda el boton */
-        background-color: #ecc4ff; 
-    }
-    
-   
-    
-    #buttonconfig{
-        font-family: 'arial', cursive;
-        background-color: #dfff42;
-        color: #bf29ff;
-        font-size: 23px;
-        padding: .5em 2em;
-        border: 3px solid #b52bff;
-        border-radius: 40px;
-        outline: none;
-        cursor: pointer;
-       
-        margin-left: 70px;
-        
-        
-        transition: transform 0.7s ease, background-color 0.7s ease; 
-    }
-    #buttonconfig:hover {
-        transform: scale(1.1); /* Escala 10% más grande al pasar el cursor sobre el botón */
-        background-color: #ecc4ff; 
-    }
-
-    
+    font-family: 'arial', cursive;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #bf29ff;
+    color: #bf29ff;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: transform 0.7s ease, background-color 0.7s ease; 
+}
+#buttonRegister:hover {
+    transform: scale(1.1); /*agranda el boton */
+    background-color: #ecc4ff; 
+}
+#buttonconfig{
+    font-family: 'arial', cursive;
+    background-color: #dfff42;
+    color: #bf29ff;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #b52bff;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 70px;
+    transition: transform 0.7s ease, background-color 0.7s ease; 
+}
+#buttonconfig:hover {
+    transform: scale(1.1); /* Escala 10% más grande al pasar el cursor sobre el botón */
+    background-color: #ecc4ff; 
+}

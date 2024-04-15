@@ -10,7 +10,6 @@ if (getLocationBtn) {
         });
     }
 });
-
 /**
  * get current location
  */
@@ -21,7 +20,6 @@ function getLocation() {
         alert("La geolocalización no es compatible con este navegador.");
     }
 }
-
 /**
  * Method for view the position
  * @param {*} position //position current
@@ -30,15 +28,10 @@ function showPosition(position) {
     document.getElementById('latitude').value = position.coords.latitude;
     document.getElementById('longitude').value = position.coords.longitude;
 }
-
 /**
  * set function to btn-primary and btn-success add href to location
  */
-
-
-    document.querySelector('.btn-success').addEventListener("click", function() {
+document.querySelector('.btn-success').addEventListener("click", function() {
       // Code to be executed when the "Register" button is clicked
       window.location.href = "/register/Register.html"; // Redirigir a la página de inicio de sesión
-    });
-
-   
+});

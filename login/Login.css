@@ -1,16 +1,14 @@
 body{
-    background-image: url('/assets/pngwing.png'); /* Ruta de la imagen de fondo */
-    background-size: 80% 150%; /* se Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
-  
+    background-image: url('/assets/pngwing.png'); /* size img */
+    background-size: 80% 150%; 
 }
 .m-5 {
-    background-color: rgba(255, 205, 255, 0.5); /* Fondo semi-transparente */
-   border-radius: 10px; /* borders */
-   width: auto;
-   height: auto;
-
+    background-color: rgba(255, 205, 255, 0.5); /* Font/
+    border-radius: 10px; /* borders */
+    width: auto;
+    height: auto;
 }
- /* style login*/
+/* style login*/
 .login{
     color: rgb(255, 234, 71);
     margin-left: 400px;
@@ -35,28 +33,26 @@ body{
     border-radius: 50px;
     outline: none;
     cursor: pointer;
-
-   
 }
 button:hover{
     transform: scale(1.1); /*agranda el boton */
-   color: #ecc4ff; 
+    color: #ecc4ff; 
 }
 .btn-success{
     background-color: #48ff42;
     font-family: 'arial', cursive;
     font-size: 23px;
     padding: .5em 2em;
-    border: 3px solid #bf29ff;
-    color: #bf29ff;
-    border-radius: 50px;
+    border: 3px solid #bf29ff;/*borders*/
+    color: #bf29ff;/*color*/
+    border-radius: 50px;/*borders radius*/
     outline: none;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 10px;/*margin*/
     
 }
 .btn-success:hover{
-    background-color: #e6ff29;
+    background-color: #e6ff29;/*color font*/
     color: black;
 }
  /* button return */
@@ -65,7 +61,7 @@ button:hover{
     font-family: 'arial', cursive;
     font-size: 23px;
     padding: .5em 2em;
-    border: 3px solid #78ff29;
+    border: 3px solid #78ff29;/*borders*/
     color: #bf29ff;
     border-radius: 50px;
     outline: none;
@@ -82,7 +78,7 @@ button:hover{
     font-family: 'arial', cursive;
     font-size: 23px;
     padding: .5em 2em;
-    border: 3px solid #78ff29;
+    border: 3px solid #78ff29;/*borders*/
     color: #bf29ff;
     border-radius: 50px;
     outline: none;
@@ -94,26 +90,22 @@ margin-left:100px;
     background-color: aqua;
 }
 .icon-container {
-    width: 100px; /* Ancho del contenedor del ícono */
-    height: 80px; /* Altura del contenedor del ícono */
-    border-radius: 50%; /* Borde redondeado para crear un círculo */
-    overflow: hidden; /* Oculta cualquier contenido adicional fuera del contenedor */
-    background-color: #7bff4f; /* Color de fondo del contenedor  */
+    width: 100px; /* width icon */
+    height: 80px; /* heigth icon */
+    border-radius: 50%; /* borders radius */
+    overflow: hidden;
+    background-color: #7bff4f; /* Color container */
     margin-left: 20px;
     margin-top: 10px;
-
-   
 }
-
 .icon-img {
-    width: 100%; /* Ancho máximo de la imagen igual al contenedor */
-    height: auto; /* Altura automática para mantener la proporción de la imagen */
-    display: block; /* imagen se muestra como bloque */
+    width: 100%; /* width icon img */
+    height: auto; /* height img */
+    display: block; 
 }
 .icon-container:hover {
-    transform: scale(1.1); /* agranda contenedor al pasar cursor */
+    transform: scale(1.1); /* big container */
 }
-
 .icon-container:hover .icon-img {
-    transform: scale(1.1); /* Agranda la imagen al pasar el cursor sobre ella */
+    transform: scale(1.1); /* big container */
 }

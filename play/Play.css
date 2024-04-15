@@ -1,35 +1,30 @@
 body {
-    background-image: url('/assets/pngegg.ico'); /* URL de tu imagen de fondo */
-    background-position: center; /* Centra la imagen */
-
-   
+    background-image: url('/assets/pngegg.ico'); /* URL img */
+    background-position: center; /* Center img */
 }
 .bg-body-tertiary:hover{
     background-color: #ff8a14;
 }
 .icon-container {
-    width: 100px; /* Ancho del contenedor del ícono */
-    height: 80px; /* Altura del contenedor del ícono */
-    border-radius: 50%; /* Borde redondeado para crear un círculo */
-    overflow: hidden; /* Oculta cualquier contenido adicional fuera del contenedor */
-    background-color: #fff94f; /* Color de fondo del contenedor  */
+    width: 100px; /* broad icon */
+    height: 80px; /* heigth container */
+    border-radius: 50%; /* borders */
+    overflow: hidden; /* hide outside the container */
+    background-color: #fff94f; /* color container */
     margin-left: 20px;
 }
-
 .icon-img {
-    width: 100%; /* Ancho máximo de la imagen igual al contenedor */
-    height: auto; /* Altura automática para mantener la proporción de la imagen */
-    display: block; /* Asegura que la imagen se muestre como un bloque */
+    width: 100%; /* width container*/
+    height: auto; /* height img auto */
+    display: block; /* img bloq */
 }
 .icon-container:hover {
-    transform: scale(1.1); /* Agranda el contenedor al pasar el cursor sobre él */
+    transform: scale(1.1); /* contenedor big */
 }
 
 .icon-container:hover .icon-img {
-    transform: scale(1.1); /* Agranda la imagen al pasar el cursor sobre ella */
+    transform: scale(1.1); /* big container */
 }
-
-
 .buttonconfig{
     background-color: #eaff28;
     font-family: 'arial', cursive;
@@ -40,16 +35,12 @@ body {
     outline: none;
     cursor: pointer;
     margin-left: 40px;
-    
-   
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttonconfig:hover {
-    transform: scale(1.3); /* Escala 10% más grande al pasar el cursor sobre el botón */
+    transform: scale(1.3); 
     background-color: #ff9914; 
 }
-
-
 .buttongo{
     background-color: #eaff28;
     font-family: 'arial', cursive;
@@ -60,9 +51,6 @@ body {
     outline: none;
     cursor: pointer;
     margin-left: 45px;
-    
-    
-    
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttongo:hover {
@@ -82,7 +70,7 @@ body {
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttonReturn:hover {
-    transform: scale(1.3); /* Escala 10% más grande al pasar el cursor sobre el botón */
+    transform: scale(1.3); 
     background-color: #ff8a14; 
 }
 .buttonchat{
@@ -94,12 +82,10 @@ body {
     border-radius: 50px;
     outline: none;
     cursor: pointer;
-   
-    
     transition: transform 0.7s ease, background-color 0.7s ease; 
 }
 .buttonchat:hover {
-    transform: scale(1.3); /* Escala 10% más grande al pasar el cursor sobre el botón */
+    transform: scale(1.3); 
     background-color: #14e4ff; 
 }
 

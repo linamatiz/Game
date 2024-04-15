@@ -1,6 +1,6 @@
 body{
-    background-image: url('/assets/pngwing.png.png'); /* Ruta de la imagen de fondo */
-    background-size: 98% 100%; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+    background-image: url('/assets/pngwing.png.png'); /* link img container */
+    background-size: 98% 100%; /* big img */
 }
 
 .btn-primary{
@@ -18,8 +18,8 @@ margin-left: 350px;
 transition: transform 0.7s ease, background-color 0.7s ease; }
 
 .btn-primary:hover{
-        transform: scale(1.1); /*agranda el boton */
-        background-color: #ecc4ff; 
+        transform: scale(1.1); /*big boton */
+        background-color: #ecc4ff; /*color*/
     }
 
 .btn-success{
@@ -27,15 +27,15 @@ transition: transform 0.7s ease, background-color 0.7s ease; }
 font-family: 'arial', cursive;
 font-size: 23px;
 padding: .5em 2em;
-border: 3px solid #bf29ff;
+border: 3px solid #bf29ff;/*borders */
 color: #bf29ff;
 border-radius: 50px;
 outline: none;
 cursor: pointer;
-margin-left: 180px;
+margin-left: 180px;/*margin */
 }
 .btn-success:hover{
-    transform: scale(1.1); /*agranda el boton */
+    transform: scale(1.1); /*big button */
     background-color: #48ff42; 
 }
 
@@ -49,21 +49,21 @@ margin-left: 180px;
    margin-left: 50px;
 }
 #formregister:hover{
-    transform: scale(1.1); /*agranda el boton */
+    transform: scale(1.1); /*big button */
     color: #cd7bff; 
 }
 .m-5 {
-    background-color: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente */
-   border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* font  */
+   border-radius: 10px;/*borders*/
    width: auto;
    height: auto;
 }
 .icon-container {
-    width: 100px; /* Ancho del contenedor del ícono */
-    height: 80px; /* Altura del contenedor del ícono */
-    border-radius: 50%; /* Borde redondeado para crear un círculo */
-    overflow: hidden; /* Oculta cualquier contenido adicional fuera del contenedor */
-    background-color: #fff94f; /* Color de fondo del contenedor  */
+    width: 100px; /* wisth container */
+    height: 80px; /* heigth container */
+    border-radius: 50%; /* borders */
+    overflow: hidden; 
+    background-color: #fff94f; /* color container  */
     margin-right: 180px;
     margin-top: 10px;
     margin-left: 1300px;
@@ -88,56 +88,46 @@ font-family: 'arial', cursive;
 font-size: 23px;
 padding: .5em 2em;
 border: 3px solid #bf29ff;
-color: #bf29ff;
-border-radius: 50px;
+color: #bf29ff;/*color*/
+border-radius: 50px;/*borders*/
 outline: none;
 cursor: pointer;
 margin-left: 350px;
-
 transition: transform 0.7s ease, background-color 0.7s ease; }
-
 .btn-primary:hover{
-        transform: scale(1.1); /*agranda el boton */
-        background-color: #ecc4ff; 
+    transform: scale(1.1); /*big button */
+    background-color: #ecc4ff; 
+}
+.btn-primary{
+    background-color: #48ff42;
+    font-family: 'arial', cursive;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #bf29ff;/*border*/
+    color: #bf29ff;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 350px;
+    transition: transform 0.7s ease, background-color 0.7s ease; }
+.btn-primary:hover{
+    transform: scale(1.1); /*big button */
+    background-color: #ecc4ff; 
     }
-    .btn-primary{
-        background-color: #48ff42;
-        font-family: 'arial', cursive;
-        font-size: 23px;
-        padding: .5em 2em;
-        border: 3px solid #bf29ff;
-        color: #bf29ff;
-        border-radius: 50px;
-        outline: none;
-        cursor: pointer;
-        margin-left: 350px;
-        
-        transition: transform 0.7s ease, background-color 0.7s ease; }
-        
-        .btn-primary:hover{
-                transform: scale(1.1); /*agranda el boton */
-                background-color: #ecc4ff; 
-            }
-        
-            .buttonreturn{
-                background-color: #ffff42;
-                font-family: 'arial', cursive;
-                font-size: 23px;
-                padding: .5em 2em;
-                border: 3px solid #bf29ff;
-                color: #bf29ff;
-                border-radius: 50px;
-                margin-left: 10px;
-            
-           
-              
-                
-                transition: transform 0.7s ease, background-color 0.7s ease; }
-                
-                .buttonreturn:hover{
-                        transform: scale(1.1); /*agranda el boton */
-                        background-color: #ecc4ff; 
-                    }
+.buttonreturn{
+    background-color: #ffff42;
+    font-family: 'arial', cursive;
+    font-size: 23px;
+    padding: .5em 2em;
+    border: 3px solid #bf29ff;
+    color: #bf29ff;
+    border-radius: 50px;
+    margin-left: 10px;
+transition: transform 0.7s ease, background-color 0.7s ease; }
+.buttonreturn:hover{
+    transform: scale(1.1); /*big button*/
+    background-color: #ecc4ff; 
+    }
 .form-label{
     color: #000000;
     font-size: 30px;
@@ -145,6 +135,6 @@ transition: transform 0.7s ease, background-color 0.7s ease; }
 }
 .form-check-input
 {
-    border-color: #48ff42;
+    border-color: #48ff42; /*borders*/
     
 }
